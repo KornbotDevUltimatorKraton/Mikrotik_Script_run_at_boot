@@ -1,0 +1,1 @@
+:while (true) do={/system resource print;beep;,blink; :delay 1s} #Delay 1 sec for getting resources data and beep and blinking led 
