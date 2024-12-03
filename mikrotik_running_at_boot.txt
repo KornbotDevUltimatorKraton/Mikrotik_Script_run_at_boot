@@ -1,0 +1,5 @@
+#Loading script to running inside the router
+/system script add name=logStartup source=":log info \"Router has started!\""
+#Running at boot add script ro run at boot 
+/system scheduler add name=runAtBoot start-time=startup on-event=logStartup
+
